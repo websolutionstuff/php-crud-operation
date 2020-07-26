@@ -44,17 +44,15 @@ input{
 	<form name="reg" action="signup1.php" method="post">
 		<table cellpadding="5" align="center">
 		<tr>
-			<td><input type="text" name="username" placeholder="User Name" required/></td> <!--value="enter first name"-->
+			<td><input type="text" name="username" placeholder="User Name" required/></td>
 		</tr>
 		<tr>
 			<td><input type="password" name="password" placeholder="Password" required/></td>
 		</tr>
-		<tr>
-			<!--<td>email:</td>-->
+		<tr>			
 			<td><input type="email" name="email" placeholder="Email" required/></td>
 		</tr>
-		<tr>
-			<!--<td>Department</td>-->
+		<tr>			
 			<td><input type="text" name="department" placeholder="Department" required/>
 			</td>
 		</tr>

@@ -52,7 +52,6 @@ input,th{
 	<table  cellpadding="5" border="1px black solid">
 	<tr>
 		<th>Name</th>
-		<!-- <th>Password</th> -->
 		<th>Email</th>
 		<th>Department</th>
 		<th colspan="2">Action</th>
@@ -67,8 +66,7 @@ input,th{
 	
 		<tr>
 		
-			<td><?php echo $db['username']?></td>
-			<!-- <td><?php echo $db['password']?></td> -->
+			<td><?php echo $db['username']?></td>			
 			<td><?php echo $db['email']?></td>
 			<td><?php echo $db['department']?></td>
 			<td><a href="update.php?update=<?php echo $db['id'];?>"><input type="submit" style="color: #fff;background-color: #337ab7;border-color: #2e6da4;" value="Update"/></a></td>
@@ -79,8 +77,6 @@ input,th{
 	}
 	?>
 	</table>
-	<!--<a href="signup.php"  class="more">Add Student</a>-->
-	<!-- <td><a href="signup.php" ><input type="submit" class="done" value="Add Student"></td></a> -->
 	<td><a href="logout.php" ><input type="submit" name="logout" class="done" value="Log out" ></a></td>
 			
 </div>
